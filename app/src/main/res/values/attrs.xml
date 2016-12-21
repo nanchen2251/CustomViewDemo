@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ClockView">
+        <attr name="color" format="color"/>
+        <attr name="size" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="TitleTextView">
+        <attr name="titleText" format="string"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="titleTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomImageView">
+        <attr name="imageText" format="string"/>
+        <attr name="imageTextColor" format="color"/>
+        <attr name="imageTextSize" format="dimension"/>
+        <attr name="imageRes" format="reference"/>
+        <attr name="imageScaleType">
+            <enum name="fillXY" value="0"/>
+            <enum name="center" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
